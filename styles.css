@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #FCFAFA;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+li, a, button {
+    background-color: #3C4245;
+    font-weight: 500;
+    font-size: 16px;
+    color: #EDF0F1;
+    text-decoration: none;
+}
+
+header {
+    background-color: #3C4245;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.nav__links {
+    background-color: #3C4245; 
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: rgba(0,136,169,1);
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+.mission-statement {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.mission-statement {
+    color: #3C4245;
+    padding-bottom: 50px;
+}
+
+.mission-statement h1 {
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.mission-statement h2 {
+    font-weight: 200;
+    font-size: 35px;
+}
+
+.mission-statement h3 {
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.products-gallery {
+    padding-bottom: 30px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.products-gallery .product img {
+    width: 220px;
+    height: 155px;
+    padding: 10px;
+}
+
+.products-gallery .product span.product-name {
+    font-weight: 100;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.team-section {
+    padding-top: 70px;
+    display: flex;
+    flex-flow: row wrap;
+    height: 200px;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.team-section .member img {
+    width: 280px;
+    height: 350px;
+    padding-bottom: 10px;
+    align-content: center;
+}
+
+.member {
+    font-weight: 200;
+    font-size: 30px;
+    padding: 20px;
+
+}
+
+.member .member-title {
+    font-weight: 100;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
